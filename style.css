@@ -160,6 +160,15 @@ h2 {
     text-decoration: underline;
 }
 
+/* Tech Stack Badges */
+.tech-stack {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap; /* Allows tag to wrap to the next line if there are many */
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
 /* Contact Section */
 .contact-section {
     text-align: center;
